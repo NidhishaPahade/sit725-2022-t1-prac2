@@ -2,9 +2,10 @@
   "name": "sit725-2022-t1-prac2",
   "version": "1.0.0",
   "description": "week 2 prac for SIT 725 2022",
-  "main": "server.js",
+ "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha --reporter spec"
   },
   "repository": {
     "type": "git",
